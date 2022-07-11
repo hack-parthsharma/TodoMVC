@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <title>to-dos</title>
+  </head>
+  <body>
+    <header><h1>to.dos</h1></header>
+    <main>
+      <div id="header">
+        <div id="select-all">▾</div>
+        <input
+          type="text"
+          name="todo-item"
+          placeholder="What needs to be done?"
+        />
+      </div>
+      <div id="list"></div>
+      <div id="status-bar">
+        <div class="count"></div>
+        <div id="filters">
+          <div class="active">All</div>
+          <div>Active</div>
+          <div>Completed</div>
+        </div>
+        <div id="clear">Clear completed</div>
+      </div>
+    </main>
+    <footer>
+      Made with <span>&hearts;</span> and
+      <a href="https://jquery.com/" target="_blank">jQuery</a> by
+      <a href="https://github.com/hack-parthsharma" target="_blank">Parth Sharma</a>.
+      <br />Based on <a href="http://todomvc.com/" target="_blank">TodoMVC</a>.
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="script.js"></script>
+</html>
